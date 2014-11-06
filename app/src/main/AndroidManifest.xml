@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lightips.sample.android.component" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="d518af5b225bb4b817e3feca5a7cfaf3" />
+
+        <activity
+            android:name="org.lightips.sample.android.component.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.lightips.sample.android.component.SpNativeActivity"
+            android:label="@string/title_activity_sp_native"
+            android:parentActivityName="org.lightips.sample.android.component.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.lightips.sample.android.component.MainActivity" />
+        </activity>
+        <activity
+            android:name="org.lightips.sample.android.component.sqlite.SqliteListActivity"
+            android:label="@string/title_activity_sqlite_list"
+            android:parentActivityName="org.lightips.sample.android.component.MainActivity" >
+        </activity>
+        <activity
+            android:name="org.lightips.sample.android.component.sqlite.SqliteNativeActivity"
+            android:label="@string/title_activity_sqlite_native"
+            android:parentActivityName="org.lightips.sample.android.component.sqlite.SqliteListActivity" >
+        </activity>
+        <activity
+            android:name="org.lightips.sample.android.component.sqlite.SqliteOrmliteActivity"
+            android:label="@string/title_activity_sqlite_ormlite"
+            android:parentActivityName="org.lightips.sample.android.component.sqlite.SqliteListActivity" >
+        </activity>
+        <activity
+            android:name="org.lightips.sample.android.component.sqlite.SqliteGreenDaoActivity"
+            android:label="@string/title_activity_sqlite_green_dao"
+            android:parentActivityName="org.lightips.sample.android.component.sqlite.SqliteListActivity" >
+        </activity>
+        <activity
+            android:name="org.lightips.sample.android.component.sqlite.SqliteActiveAndroidActivity"
+            android:label="@string/title_activity_sqlite_active_android"
+            android:parentActivityName="org.lightips.sample.android.component.sqlite.SqliteListActivity" >
+        </activity>
+        <activity
+            android:name="org.lightips.sample.android.component.maps.MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+    </application>
+
+</manifest>

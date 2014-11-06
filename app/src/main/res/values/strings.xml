@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Component Sample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_list_sp">Shared Preference</string>
+    <string name="main_list_sqlite">SQLite</string>
+    <string name="main_list_file">File</string>
+    <string name="main_list_cp">Content Provider</string>
+    <string name="main_list_map">Map</string>
+    <string name="title_activity_sp_native">SpNativeActivity</string>
+    <string name="sp_edit_hint">Shared Pre</string>
+    <string name="title_activity_sqlite_list">SqliteListActivity</string>
+    <string name="sqlite_list_native">Native</string>
+    <string name="sqlite_list_ormlite">Ormlite</string>
+    <string name="sqlite_list_greendao">greenDAO</string>
+    <string name="sqlite_list_activeandroid">Active Android</string>
+    <string name="title_activity_sqlite_native">SqliteNativeActivity</string>
+    <string name="title_activity_sqlite_ormlite">SqliteOrmliteActivity</string>
+    <string name="title_activity_sqlite_green_dao">SqliteGreenDaoActivity</string>
+    <string name="title_activity_sqlite_active_android">SqliteAtiveAndroidActivity</string>
+    <string name="sqlite_native_name">Name</string>
+    <string name="sqlite_native_age">Age</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>
